@@ -9,7 +9,7 @@ public class CheckerIsASimpleNumber {
 		if(n==2) {
 			return true;
 		}
-		for(int devider=2;devider<n;++devider) {
+		for(int devider=2;devider<Math.sqrt(n);++devider) {
 				if((n%devider==0)) {
 					return false;
 				}
