@@ -14,9 +14,7 @@ public class CounterDifferentNumInDigits {
 				tmp=number;
 				count=0;
 				valueformatches=i;
-				currentvalueofdigit=i;
-			
-			
+							
 				while(tmp>0) {
 					currentvalueofdigit=tmp%10;
 					if(currentvalueofdigit==valueformatches) {
