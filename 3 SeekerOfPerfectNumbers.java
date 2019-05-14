@@ -9,14 +9,14 @@ public class SeekerOfPerfectNumbers {
 				int sumofdeviders=0;
 			
 				for(int i=1;i<num;i++) {
-										if(num%i==0) {
-											sumofdeviders+=i;
-														continue;
-										}
+						if(num%i==0) {
+						sumofdeviders+=i;
+						continue;
+						}
 				}
 		
 				if(sumofdeviders == num) {
-									System.out.println("Perfect num is: "+num );
+						System.out.println("Perfect num is: "+num );
 				}	
 				else {continue;}
 		}
