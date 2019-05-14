@@ -8,7 +8,7 @@ public class SeekerOfPerfectNumbers {
 				int num=var;
 				int sumofdeviders=0;
 			
-				for(int i=1;i<num;i++) {
+				for(int i=1,tmp=num/2+1;i<tmp;i++) {
 						if(num%i==0) {
 						sumofdeviders+=i;
 						continue;
